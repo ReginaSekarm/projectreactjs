@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import teamPhoto from '../imgfoto-tim.jpeg';
+import teamPhoto from '../img/foto-tim.jpeg';
 
 const teamMembers = [
   { name: "Nilam Dwi Widya Ningrum", to: "/nilam" },
