@@ -9,7 +9,7 @@ const teamMembers = [
 
 function Home() {
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-6">
+    <div className="min-h-screen bg-blue-900 flex flex-col items-center justify-center p-6">
       <div className="w-full max-w-md bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
 
         {/* Header */}
