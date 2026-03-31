@@ -21,18 +21,9 @@ function sinta() {
             <p>📚 <span className="font-medium">Prodi:</span> Teknologi Informasi</p>
             <p>📍 <span className="font-medium">Domisili:</span> Malang, Jawa Timur</p>
           </div>
-          <div className="mt-4 flex gap-3">
-            
-              <a href="https://instagram.com/dsntrahm"
-              target="_blank"
-              rel="noreferrer"
-              className="flex items-center gap-1 text-sm text-pink-500 hover:underline">
-              📸 Instagram
-            </a>
-          </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow p-6">
+        <div className="bg-white rounded-xl shadow p-6 mb-4">
           <h2 className="text-xl font-semibold text-blue-800 mb-3">Tentang Diri</h2>
           <p className="text-gray-700 leading-relaxed">
             Halo, nama saya Desinta Rahma, mahasiswi D3 Teknologi Informasi di Universitas Brawijaya, Jawa Timur. Saya adalah pribadi yang ramah dan senang berkenalan dengan banyak orang, terlebih jika bisa bekerja sama dan saling berbagi ide bagi saya itu adalah hal yang menyenangkan.
@@ -40,6 +31,36 @@ function sinta() {
             Harapan saya ke depannya adalah terus berkembang di bidang teknologi dan suatu saat bisa menciptakan sesuatu yang bermanfaat bagi banyak orang. Masih panjang perjalanannya, tapi saya yakin dengan usaha dan kerja keras semuanya bisa tercapai.
           </p>
         </div>
+
+        {/* Card Sosmed */}
+        <div className="bg-white rounded-xl shadow p-6">
+          <h2 className="text-xl font-semibold text-blue-800 mb-4">Hubungi Saya</h2>
+          <div className="flex flex-col gap-3">
+            
+              <a href="https://instagram.com/dsntrahm"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 py-3 rounded-lg hover:opacity-90 transition"
+             >
+              📸 <span className="font-medium">Instagram</span>
+              <span className="ml-auto text-sm opacity-80">@dsntrahm</span>
+            </a>
+
+            
+              <a href="mailto:ciintaaa57@gmail.com"
+              className="flex items-center gap-3 bg-red-500 text-white px-4 py-3 rounded-lg hover:opacity-90 transition"
+              >
+              📧 <span className="font-medium">Email</span>
+              <span className="ml-auto text-sm opacity-80">ciintaaa57@gmail.com</span>
+            </a>
+
+            <div className="flex items-center gap-3 bg-green-500 text-white px-4 py-3 rounded-lg">
+              💬 <span className="font-medium">Line</span>
+              <span className="ml-auto text-sm opacity-80">cciintaa_</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );
