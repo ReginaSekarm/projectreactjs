@@ -29,6 +29,27 @@ function Regina() {
             Halo! Saya Regina Sekar Melati, seorang mahasiswi program studi Teknologi Informasi di Universitas Brawijaya yang memiliki ketertarikan pada bidang teknologi. Saya senang mempelajari hal baru serta mengembangkan kemampuan soft skill maupun hard skill yang belum pernah saya miliki sebelumnya. Saya dikenal sebagai pribadi yang disiplin dan komunikatif. Selain kuliah, saya juga mengikuti kegiatan seperti organisasi kampus, UKM, serta beberapa kepanitiaan. Saya berusaha untuk mencari pengalaman sebanyak-banyaknya dari manapun dan dari siapapun sekaligus memperluas wawasan dan relasi. Saya percaya setiap pengalaman adalah kesempatan untuk belajar dan berkembang. Ke depannya, saya ingin terus meningkatkan kemampuan diri serta memberikan kontribusi positif di bidang teknologi.
           </p>
         </div>
+
+{/* Card Sosmed */}
+        <div className="bg-white rounded-xl shadow p-6">
+          <h2 className="text-xl font-semibold text-blue-800 mb-4">Let's Connect!</h2>
+          <div className="flex flex-col gap-3">
+            
+              <a href="https://instagram.com/reginamlt"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 py-3 rounded-lg hover:opacity-90 transition"
+             >
+              📸 <span className="font-medium">Instagram</span>
+            </a>
+
+            <a href="https://line.me/ti/p/-tUc7GIlng"
+            className="flex items-center gap-3 bg-green-500 text-white px-4 py-3 rounded-lg">
+              💬 <span className="font-medium">Line</span>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   );
