@@ -54,10 +54,11 @@ function sinta() {
               <span className="ml-auto text-sm opacity-80">ciintaaa57@gmail.com</span>
             </a>
 
-            <div className="flex items-center gap-3 bg-green-500 text-white px-4 py-3 rounded-lg">
+            <a href="https://line.me/ti/p/ktTBy5qrTb"
+            className="flex items-center gap-3 bg-green-500 text-white px-4 py-3 rounded-lg">
               💬 <span className="font-medium">Line</span>
               <span className="ml-auto text-sm opacity-80">cciintaa_</span>
-            </div>
+            </a>
           </div>
         </div>
 
