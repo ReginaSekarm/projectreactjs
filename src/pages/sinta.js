@@ -34,7 +34,7 @@ function sinta() {
 
         {/* Card Sosmed */}
         <div className="bg-white rounded-xl shadow p-6">
-          <h2 className="text-xl font-semibold text-blue-800 mb-4">Hubungi Saya</h2>
+          <h2 className="text-xl font-semibold text-blue-800 mb-4">Let's Connect!</h2>
           <div className="flex flex-col gap-3">
             
               <a href="https://instagram.com/dsntrahm"
@@ -43,21 +43,11 @@ function sinta() {
               className="flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 py-3 rounded-lg hover:opacity-90 transition"
              >
               📸 <span className="font-medium">Instagram</span>
-              <span className="ml-auto text-sm opacity-80">@dsntrahm</span>
-            </a>
-
-            
-              <a href="mailto:ciintaaa57@gmail.com"
-              className="flex items-center gap-3 bg-red-500 text-white px-4 py-3 rounded-lg hover:opacity-90 transition"
-              >
-              📧 <span className="font-medium">Email</span>
-              <span className="ml-auto text-sm opacity-80">ciintaaa57@gmail.com</span>
             </a>
 
             <a href="https://line.me/ti/p/ktTBy5qrTb"
             className="flex items-center gap-3 bg-green-500 text-white px-4 py-3 rounded-lg">
               💬 <span className="font-medium">Line</span>
-              <span className="ml-auto text-sm opacity-80">cciintaa_</span>
             </a>
           </div>
         </div>
