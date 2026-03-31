@@ -21,6 +21,15 @@ function sinta() {
             <p>📚 <span className="font-medium">Prodi:</span> Teknologi Informasi</p>
             <p>📍 <span className="font-medium">Domisili:</span> Malang, Jawa Timur</p>
           </div>
+          <div className="mt-4 flex gap-3">
+            
+              <a href="https://instagram.com/dsntrahm"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-1 text-sm text-pink-500 hover:underline">
+              📸 Instagram
+            </a>
+          </div>
         </div>
 
         <div className="bg-white rounded-xl shadow p-6">
