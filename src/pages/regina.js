@@ -31,7 +31,7 @@ function Regina() {
         </div>
 
 {/* Card Sosmed */}
-        <div className="bg-white rounded-xl shadow p-6">
+        <div className="bg-white rounded-xl shadow p-6 mb-4">
           <h2 className="text-xl font-semibold text-blue-800 mb-4">Let's Connect!</h2>
           <div className="flex flex-col gap-3">
             
