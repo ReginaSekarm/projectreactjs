@@ -33,6 +33,23 @@ function nilam() {
            Saya percaya konsistensi dan rasa ingin tahu adalah kunci untuk berkembang. sKe depannya, saya bercita-cita menjadi full-stack developer yang mampu menciptakan solusi teknologi bermanfaat bagi banyak orang.
           </p>
         </div>
+
+        {/* Card Sosmed */}
+        <div className="bg-white rounded-xl shadow p-6">
+          <h2 className="text-xl font-semibold text-blue-800 mb-4">Let's Connect!</h2>
+          <div className="flex flex-col gap-3">
+            
+              <a href="https://www.instagram.com/nilamdwdyningrm?igsh=MTc0azg5OWU5NXY2ZA=="
+              className="flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 py-3 rounded-lg hover:opacity-90 transition">
+              📸 <span className="font-medium">Instagram</span>
+            </a>
+
+            <a href="https://line.me/ti/p/Fd3TYfJc24"
+            className="flex items-center gap-3 bg-green-500 text-white px-4 py-3 rounded-lg">
+              💬 <span className="font-medium">Line</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
